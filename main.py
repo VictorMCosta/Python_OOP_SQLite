@@ -2,5 +2,8 @@
 from model.Pessoa import Pessoa
 
 #Exemplo de uso
-victor = Pessoa(1, "")
+victor = Pessoa(1, "Victor Mendes")
 print(victor)
+
+#Quero mostrar só o nome
+print(victor.nome)
